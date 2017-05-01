@@ -54,8 +54,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate  {
         let loc3 = Landmark(name: "I Wonder Where", street_addr: "I hope this works",city: "city",state:"state",zip:"48187",brief_descr:"descr", latitude: 42.234, longitude: -83.234)*/
         
         
-        let loc1 = Landmark(name: "Detroit Institute of Arts", street_addr: "5200 Woodward Avenue",city: "Detroit",state:"MI",zip:"48202-4094",brief_descr:"Official site: http://www.dia.org/", latitude: 42.358742,longitude: -83.063754)
-        let loc2 = Landmark(name: "Comerica Park", street_addr: "2100 Woodward Avenue", city: "Detroit",state:"MI",zip:"48201-3470",brief_descr:"Official site: http://detroit.tigers.mlb.com/det/ballpark/",latitude: 42.3677736,longitude: -83.4172997)
+        
         
         let loc3 = Landmark(name: "Motown Museum", street_addr: "2648 West Grand Boulevard",city: "Detroit",state:"MI",zip:"48208-1237",brief_descr:"descr", latitude: 42.3644374,longitude: -83.0885255)
  
@@ -82,7 +81,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate  {
             , latitude: 42.3620531,longitude: -82.9838825)
 
         
-        LandmarksArray = [loc1, loc2, loc3,loc4,loc5,loc6,loc7,loc8,loc9,loc10]
+        LandmarksArray = [ loc3,loc4,loc5,loc6,loc7,loc8,loc9,loc10]
         
     }
     
